@@ -43,7 +43,7 @@ const Hero = () => {
             Currently, I'm exploring{" "}
             <span className="text-white font-medium">C++</span> and{" "}
             <span className="text-white font-medium">Python</span>
-            to expand my skills further.
+            to expand my skills further
           </p>
         </motion.div>
       </div>
@@ -60,21 +60,21 @@ const Hero = () => {
         transition={{ duration: 1 }}
         className="w-[-1000] h-[-1000] max-w-4xl opacity-40 pointer-events-none mb-6"
       />
-        <div className="w-full py-4 mb-24 relative z-10">
-                <Marquee gradient={false} speed={100} pauseOnHover>
-                  <div className="flex gap-10 text-5xl">
-                    <SiNextdotjs className="text-white" />
-                    <FaReact className="text-blue-400" />
-                    <SiTailwindcss className="text-cyan-400" />
-                    <FaHtml5 className="text-orange-500" />
-                    <FaCss3Alt className="text-blue-500" />
-                    <FaJsSquare className="text-yellow-400" />
-                    <FaNodeJs className="text-green-500" />
-                    <FaPython className="text-yellow-300" />
-                    <SiCplusplus className="text-blue-600" />
-                  </div>
-                </Marquee>
-              </div>
+      <div className="w-full py-4 mb-24 relative z-10">
+        <Marquee gradient={false} speed={100} pauseOnHover>
+          <div className="flex gap-10 text-5xl">
+            <SiNextdotjs className="text-white" />
+            <FaReact className="text-blue-400" />
+            <SiTailwindcss className="text-cyan-400" />
+            <FaHtml5 className="text-orange-500" />
+            <FaCss3Alt className="text-blue-500" />
+            <FaJsSquare className="text-yellow-400" />
+            <FaNodeJs className="text-green-500" />
+            <FaPython className="text-yellow-300" />
+            <SiCplusplus className="text-blue-600" />
+          </div>
+        </Marquee>
+      </div>
     </section>
   );
 };
